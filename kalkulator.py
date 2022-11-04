@@ -15,3 +15,14 @@ print('=' *10)
 if option == '1':
     hasil = bil_1 + bil_2
     print(f'Hasil operasi dari {bil_1} + {bil_2} = {hasil}')
+elif option == '2':
+    hasil = bil_1 - bil_2
+    print(f'Hasil operasi dari {bil_1} - {bil_2} = {hasil}')
+elif option == '3': 
+    hasil = bil_1 * bil_2 
+    print(f'Hasil operasi dari {bil_1} * {bil_2} = {hasil}')
+elif option == '4': 
+    hasil = bil_1 / bil_2   
+    print(f'Hasil operasi dari {bil_1} / {bil_2} = {hasil}') 
+else :
+    print('Tidak valid')     
